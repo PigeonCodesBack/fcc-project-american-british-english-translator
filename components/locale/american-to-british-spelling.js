@@ -1,4 +1,4 @@
-module.exports = {
+const AMERICAN_TO_BRITISH_SPELLING = {
   "accessorize": "accessorise",
   "accessorized": "accessorised",
   "accessorizes": "accessorises",
@@ -1699,3 +1699,5 @@ module.exports = {
   "yogurt": "yoghurt",
   "yogurts": "yoghurts"
 }
+
+module.exports = AMERICAN_TO_BRITISH_SPELLING

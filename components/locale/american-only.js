@@ -1,4 +1,4 @@
-module.exports = {
+const AMERICAN_ONLY = {
   "acclimate": "acclimatise",
   "acetaminophen": "paracetamol",
   "baby carriage": "pram",
@@ -183,3 +183,5 @@ module.exports = {
   "zipper": "zip",
   "zucchini": "courgette"
 }
+
+module.exports = AMERICAN_ONLY;
